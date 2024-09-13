@@ -1,0 +1,164 @@
+Index: src/JavaBeansAndBytes.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import java.util.Random;\n\n/**\n * CS2 Review Assignment!\n * Do NOT use ChatGPT or any other generative AI to assist you with this assignment\n * You may reference your own past work and the internet (not including AI)\n */\n\npublic class JavaBeansAndBytes {\n\n    // Variables for the CoffeeShop\n    String name;\n    boolean isOpen;\n    int yearFounded;\n\n\n    public static void main(String[] args) {\n        // Create a new CoffeeShop instance to run everything.\n        JavaBeansAndBytes cafe = new JavaBeansAndBytes();\n    }\n\n    public void CoffeeShop(){\n        JavaBeansAndBytes();\n\n    }\n\n\n    // Constructor for CoffeeShop\n    public void JavaBeansAndBytes() {\n        name = \"Java Beans & Bytes: The Code Café\";\n        isOpen = true;\n        yearFounded = 1996;\n\n        System.out.println(\"Welcome to \" + name + \"!\");\n        if (isOpen) {\n            System.out.println(\"We are open!\");\n        } else {\n            System.out.println(\"We are closed :(\");\n        }\n        yearFounded = 1996;\n        System.out.println(\"We were actually founded in \" + yearFounded + \" :)\");\n\n\n        // Calling methods\n        randomDiscount();\n        // TODO\n        // Add parameter to specialOfTheDay (drink of your choice)\n        specialOfTheDay();\n        countCups();\n        baristasChoice();\n\n        // TODO\n        // Create two CoffeeDrink objects\n        CoffeeDrink order1 = new CoffeeDrink(1,\"Espresso\",false);\n\n        CoffeeDrink order2 = new CoffeeDrink(3,\"Caramel\",true);\n\n        order2.setFlavor(\"Choco\");\n        order2.getFLavor();\n        System.out.println(order2.getFLavor());\n\n        order2.setWhippedCream(true);\n        System.out.println(order2.getWhippedCream());\n\n        order2.setNumberOfCups(7);\n        System.out.println(order2.getNumberOfCups());\n\n        System.out.println();\n\n        // TODO\n        // Print out the order details\n        order1.printInfo();\n        order2.printInfo();\n\n    }\n\n    // Method to generate a random discount\n    public void randomDiscount() {\n        // TODO\n\n        int discount = (int) (Math.random()*31);\n        System.out.println(\"Discount: \"+ discount+\"%\");\n        // Make this method generate a random integer discount (0-30%)\n        // and print the result.\n    }\n\n    // Method with a parameter for the special of the day\n    public void specialOfTheDay() {\n        // TODO\n        // Make this method accept a parameter representing the day’s special.\n        // Print the day's special.\n        System.out.println();\n    }\n\n    // Method to show loops\n    public void countCups() {\n        System.out.println(\"Counting cups sold today:\");\n\n        // TODO\n        // Write three different for loops that print the indicated numbers:\n\n        // Print 1 to 5\n\n\n        // Print 2, 5, 8, 11\n\n\n        // Print 8 to 0\n\n    }\n\n    // Method to recommend a coffee based on a random number\n    public void baristasChoice() {\n        // TODO\n        // Make this method generate a random decimal between 0 and 1\n        // and print one of four drink recommendations based on its value.\n    }\n}\n\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/JavaBeansAndBytes.java b/src/JavaBeansAndBytes.java
+--- a/src/JavaBeansAndBytes.java	(revision dac08ad3c68517dfa6822abeebaab6a53952f5e2)
++++ b/src/JavaBeansAndBytes.java	(date 1726625260985)
+@@ -56,8 +56,8 @@
+         CoffeeDrink order2 = new CoffeeDrink(3,"Caramel",true);
+ 
+         order2.setFlavor("Choco");
+-        order2.getFLavor();
+-        System.out.println(order2.getFLavor());
++        order2.getFlavor();
++        System.out.println(order2.getFlavor());
+ 
+         order2.setWhippedCream(true);
+         System.out.println(order2.getWhippedCream());
+@@ -114,6 +114,12 @@
+         // TODO
+         // Make this method generate a random decimal between 0 and 1
+         // and print one of four drink recommendations based on its value.
++
++        double value = (Math.random());
++
++        if (value<= 0.25){
++            System.out.println("Latte");
++        }
+     }
+ }
+ 
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"dc016c7f-a394-4c21-b484-7c34201eb1c7\" name=\"Changes\" comment=\"Partially completed work\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/CoffeeDrink.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/CoffeeDrink.java\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/src/JavaBeansAndBytes.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/JavaBeansAndBytes.java\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Class\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"GitHubPullRequestSearchHistory\">{\n  &quot;lastFilter&quot;: {\n    &quot;state&quot;: &quot;OPEN&quot;,\n    &quot;assignee&quot;: &quot;killiam-cs&quot;\n  }\n}</component>\n  <component name=\"GithubPullRequestsUISettings\"><![CDATA[{\n  \"selectedUrlAndAccountId\": {\n    \"url\": \"https://github.com/alecavallini-hsu26/CS1ReviewForCS2-master.git\",\n    \"accountId\": \"f7433b28-500e-4413-a945-1ba96aa99640\"\n  }\n}]]></component>\n  <component name=\"ProjectColorInfo\">{\n  &quot;associatedIndex&quot;: 6\n}</component>\n  <component name=\"ProjectId\" id=\"2lhRRECGz1k3DoXxBg4TXmFJjXa\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Application.JavaBeansAndBytes.executor\": \"Run\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"git-widget-placeholder\": \"main\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"last_opened_file_path\": \"/Users/ale/Desktop/School/2024-25/Comp Sci/CS1ReviewForCS2-master\",\n    \"project.structure.last.edited\": \"Project\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.2\",\n    \"settings.editor.selected.configurable\": \"preferences.keymap\"\n  }\n}]]></component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"dc016c7f-a394-4c21-b484-7c34201eb1c7\" name=\"Changes\" comment=\"\" />\n      <created>1725630311977</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1725630311977</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"First commit?\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1725632470967</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1725632470967</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"Partially completed work\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1726246675224</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1726246675224</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"3\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"First commit\" />\n    <MESSAGE value=\"First commit?\" />\n    <MESSAGE value=\"Add CoffeeDrink class\" />\n    <MESSAGE value=\"Partially completed work\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Partially completed work\" />\n  </component>\n  <component name=\"XSLT-Support.FileAssociations.UIState\">\n    <expand />\n    <select />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision dac08ad3c68517dfa6822abeebaab6a53952f5e2)
++++ b/.idea/workspace.xml	(date 1726625261041)
+@@ -5,7 +5,6 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="dc016c7f-a394-4c21-b484-7c34201eb1c7" name="Changes" comment="Partially completed work">
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/CoffeeDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoffeeDrink.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/src/JavaBeansAndBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBeansAndBytes.java" afterDir="false" />
+     </list>
+@@ -22,6 +21,12 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="PUSH_TAGS">
++      <GitPushTagMode>
++        <option name="argument" value="--tags" />
++        <option name="title" value="All" />
++      </GitPushTagMode>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+   </component>
+   <component name="GitHubPullRequestSearchHistory">{
+@@ -30,12 +35,12 @@
+     &quot;assignee&quot;: &quot;killiam-cs&quot;
+   }
+ }</component>
+-  <component name="GithubPullRequestsUISettings"><![CDATA[{
+-  "selectedUrlAndAccountId": {
+-    "url": "https://github.com/alecavallini-hsu26/CS1ReviewForCS2-master.git",
+-    "accountId": "f7433b28-500e-4413-a945-1ba96aa99640"
++  <component name="GithubPullRequestsUISettings">{
++  &quot;selectedUrlAndAccountId&quot;: {
++    &quot;url&quot;: &quot;https://github.com/alecavallini-hsu26/CS1ReviewForCS2-master.git&quot;,
++    &quot;accountId&quot;: &quot;f7433b28-500e-4413-a945-1ba96aa99640&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="ProjectColorInfo">{
+   &quot;associatedIndex&quot;: 6
+ }</component>
+@@ -45,20 +50,20 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Application.JavaBeansAndBytes.executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "git-widget-placeholder": "main",
+-    "kotlin-language-version-configured": "true",
+-    "last_opened_file_path": "/Users/ale/Desktop/School/2024-25/Comp Sci/CS1ReviewForCS2-master",
+-    "project.structure.last.edited": "Project",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.2",
+-    "settings.editor.selected.configurable": "preferences.keymap"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Application.JavaBeansAndBytes.executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;/Users/ale/Desktop/School/2024-25/Comp Sci/CS1ReviewForCS2-master&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
++    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+     <task active="true" id="Default" summary="Default task">
+@@ -84,7 +89,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1726246675224</updated>
+     </task>
+-    <option name="localTasksCounter" value="3" />
++    <task id="LOCAL-00003" summary="Partially completed work">
++      <option name="closed" value="true" />
++      <created>1726624849465</created>
++      <option name="number" value="00003" />
++      <option name="presentableId" value="LOCAL-00003" />
++      <option name="project" value="LOCAL" />
++      <updated>1726624849465</updated>
++    </task>
++    <option name="localTasksCounter" value="4" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+Index: src/CoffeeDrink.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// CoffeeDrink object class\n\nclass CoffeeDrink {\n\n    private int numberOfCups;\n    private String flavor;\n    private boolean hasWhippedCream;\n\n    public CoffeeDrink espresso;\n    public CoffeeDrink latte;\n\n    // Constructor for CoffeeDrink class\n    public CoffeeDrink(int pnumberOfCups, String pflavor, boolean phasWhippedCream) {\n        flavor = pflavor;\n        numberOfCups= pnumberOfCups;\n        hasWhippedCream=phasWhippedCream;\n        // TODO\n        // Edit this constructor to accept three parameters,\n        // one for each CoffeeDrink variable.\n        // Assign those parameter values to the class-wide variables.\n\n        numberOfCups= pnumberOfCups;\n        flavor= pflavor;\n        hasWhippedCream= phasWhippedCream;\n\n    }\n\n    // Method to print information about the CoffeeDrink\n    public void printInfo() {\n\n        espresso=new CoffeeDrink(5,\"espresso\", false);\n        espresso.printInfo();\n\n        latte= new CoffeeDrink(1,\"Milk\", false);\n        latte.printInfo();\n\n\n        System.out.print(\"Number of Cups \" + numberOfCups + \" Flavor: \" + flavor + \" Whipped Cream: \"+ hasWhippedCream);\n\n        // TODO\n        // Make this method print order details.\n        // Include information stored in each variable.\n\n    }\n\n    public void setFlavor(String flavor){\n        this.flavor=flavor;\n        if (flavor.equals(\"hot sauce\")){\n            this.flavor=flavor;\n        }else {\n            System.out.println(\"flavor not allowed\");\n        }\n    }\n\n    public String getFLavor(){\n        return flavor;\n    }\n\n    public void setHasWhippedCream(boolean WhippedCream){\n        this.hasWhippedCream = WhippedCream;\n    }\n\n    public boolean getWhippedCream(){\n        return hasWhippedCream;\n    }\n\n    public void setNumberOfCups(int NumberOfCups){\n        this.numberOfCups = NumberOfCups;\n    }\n\n    public int getNumberOfCups(){\n        return numberOfCups;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/CoffeeDrink.java b/src/CoffeeDrink.java
+--- a/src/CoffeeDrink.java	(revision dac08ad3c68517dfa6822abeebaab6a53952f5e2)
++++ b/src/CoffeeDrink.java	(date 1726625082005)
+@@ -52,11 +52,11 @@
+         }
+     }
+ 
+-    public String getFLavor(){
++    public String getFlavor(){
+         return flavor;
+     }
+ 
+-    public void setHasWhippedCream(boolean WhippedCream){
++    public void setWhippedCream(boolean WhippedCream){
+         this.hasWhippedCream = WhippedCream;
+     }
+ 
+@@ -71,4 +71,5 @@
+     public int getNumberOfCups(){
+         return numberOfCups;
+     }
++
+ }

@@ -1,0 +1,19 @@
+Index: src/CoffeeDrink.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>// CoffeeDrink object class\n\nclass CoffeeDrink {\n\n    private int numberOfCups;\n    private String flavor;\n    private boolean hasWhippedCream;\n\n    public CoffeeDrink espresso;\n    public CoffeeDrink latte;\n\n    // Constructor for CoffeeDrink class\n    public CoffeeDrink(int pnumberOfCups, String pflavor, boolean phasWhippedCream) {\n        flavor = pflavor;\n        numberOfCups= pnumberOfCups;\n        hasWhippedCream=phasWhippedCream;\n        // TODO\n        // Edit this constructor to accept three parameters,\n        // one for each CoffeeDrink variable.\n        // Assign those parameter values to the class-wide variables.\n\n        numberOfCups= pnumberOfCups;\n        flavor= pflavor;\n        hasWhippedCream= phasWhippedCream;\n\n    }\n\n    // Method to print information about the CoffeeDrink\n    public void printInfo() {\n\n        espresso=new CoffeeDrink(5,\"espresso\", false);\n        espresso.printInfo();\n\n        latte= new CoffeeDrink(1,\"Milk\", false);\n        latte.printInfo();\n\n\n        System.out.print(\"Number of Cups \" + numberOfCups + \" Flavor: \" + flavor + \" Whipped Cream: \"+ hasWhippedCream);\n\n        // TODO\n        // Make this method print order details.\n        // Include information stored in each variable.\n\n    }\n\n    public void setFlavor(String flavor){\n        this.flavor=flavor;\n        if (flavor.equals(\"hot sauce\")){\n            this.flavor=flavor;\n        }else {\n            System.out.println(\"flavor not allowed\");\n        }\n    }\n\n    public String getFLavor(){\n        return flavor;\n    }\n\n    public void setHasWhippedCream(boolean WhippedCream){\n        this.hasWhippedCream = WhippedCream;\n    }\n\n    public boolean getWhippedCream(){\n        return hasWhippedCream;\n    }\n\n    public void setNumberOfCups(int NumberOfCups){\n        this.numberOfCups = NumberOfCups;\n    }\n\n    public int getNumberOfCups(){\n        return numberOfCups;\n    }\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/CoffeeDrink.java b/src/CoffeeDrink.java
+--- a/src/CoffeeDrink.java	(revision dac08ad3c68517dfa6822abeebaab6a53952f5e2)
++++ b/src/CoffeeDrink.java	(date 1726625362131)
+@@ -56,7 +56,7 @@
+         return flavor;
+     }
+ 
+-    public void setHasWhippedCream(boolean WhippedCream){
++    public void setWhippedCream(boolean WhippedCream){
+         this.hasWhippedCream = WhippedCream;
+     }
+ 
