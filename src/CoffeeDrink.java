@@ -1,7 +1,7 @@
 // CoffeeDrink object class
 
 class CoffeeDrink {
-
+//
     private int numberOfCups;
     private String flavor;
     private boolean hasWhippedCream;
