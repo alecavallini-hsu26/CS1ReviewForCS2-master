@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dc016c7f-a394-4c21-b484-7c34201eb1c7" name="Changes" comment="Partially completed work">
+    <list default="true" id="dc016c7f-a394-4c21-b484-7c34201eb1c7" name="Changes" comment="Partially completed work2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CoffeeDrink.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoffeeDrink.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JavaBeansAndBytes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/JavaBeansAndBytes.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,12 +28,12 @@
     &quot;assignee&quot;: &quot;killiam-cs&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/alecavallini-hsu26/CS1ReviewForCS2-master.git",
-    "accountId": "f7433b28-500e-4413-a945-1ba96aa99640"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alecavallini-hsu26/CS1ReviewForCS2-master.git&quot;,
+    &quot;accountId&quot;: &quot;f7433b28-500e-4413-a945-1ba96aa99640&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -45,20 +43,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.JavaBeansAndBytes.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/ale/Desktop/School/2024-25/Comp Sci/CS1ReviewForCS2-master",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.JavaBeansAndBytes.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ale/Desktop/School/2024-25/Comp Sci/CS1ReviewForCS2-master&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -84,7 +82,71 @@
       <option name="project" value="LOCAL" />
       <updated>1726246675224</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Partially completed work">
+      <option name="closed" value="true" />
+      <created>1726625433311</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726625433311</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Partially completed work">
+      <option name="closed" value="true" />
+      <created>1726625460812</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1726625460812</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Partially completed work">
+      <option name="closed" value="true" />
+      <created>1726625469554</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1726625469554</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Partially completed work2">
+      <option name="closed" value="true" />
+      <created>1726625480378</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1726625480378</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Partially completed work2">
+      <option name="closed" value="true" />
+      <created>1726625492912</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1726625492912</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Partially completed work2">
+      <option name="closed" value="true" />
+      <created>1726625504937</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1726625504937</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Partially completed work2">
+      <option name="closed" value="true" />
+      <created>1726625513658</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1726625513658</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Partially completed work2">
+      <option name="closed" value="true" />
+      <created>1726625543217</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1726625543217</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -92,7 +154,8 @@
     <MESSAGE value="First commit?" />
     <MESSAGE value="Add CoffeeDrink class" />
     <MESSAGE value="Partially completed work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Partially completed work" />
+    <MESSAGE value="Partially completed work2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Partially completed work2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
